@@ -165,7 +165,7 @@ global.exito = eg
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "✔️𝗔𝗹𝗰𝗮|𝗕𝗼𝘁"
 global.igfg = "✔️𝗔𝗹𝗰𝗮|𝗕𝗼𝘁"
-global.nomorown = "56928561853"
+global.nomorown = "528241264763"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -442,7 +442,7 @@ global.tk = accounts.tiktok
 global.ths = accounts.threads
 global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.bot = 'wa.me/528241264763'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
