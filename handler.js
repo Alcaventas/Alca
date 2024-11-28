@@ -984,13 +984,13 @@ if (!('sPromote' in chat)) chat.sPromote = ''
 if (!('sDemote' in chat)) chat.sDemote = '' 
 if (!('sCondition' in chat)) chat.sCondition = JSON.stringify([{ grupo: { usuario: [], condicion: [], admin: '' }, prefijos: []}])
 if (!('delete' in chat)) chat.delete = false                   
-if (!('modohorny' in chat)) chat.modohorny = true       
+if (!('modohorny' in chat)) chat.modohorny = false       
 if (!('stickers' in chat)) chat.stickers = false            
 if (!('autosticker' in chat)) chat.autosticker = false      
 if (!('audios' in chat)) chat.audios = false               
 if (!('antiver' in chat)) chat.antiver = false 
-if (!('antiPorn' in chat)) chat.antiPorn = true     
-if (!('antiLink' in chat)) chat.antiLink = false     
+if (!('antiPorn' in chat)) chat.antiPorn = false     
+if (!('antiLink' in chat)) chat.antiLink = true     
 if (!('antiLink2' in chat)) chat.antiLink2 = false
 if (!('antiTiktok' in chat)) chat.antiTiktok = false
 if (!('antiYoutube' in chat)) chat.antiYoutube = false
@@ -1007,9 +1007,9 @@ if (!('viewonce' in chat)) chat.viewonce = false
 if (!('modoadmin' in chat)) chat.modoadmin = false    
 if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('game' in chat)) chat.game = true
-if (!('game2' in chat)) chat.game2 = true
+if (!('game2' in chat)) chat.game2 = false
 if (!('simi' in chat)) chat.simi = false
-if (!('antiTraba' in chat)) chat.antiTraba = true
+if (!('antiTraba' in chat)) chat.antiTraba = false
 if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
@@ -1023,13 +1023,13 @@ sPromote: '',
 sDemote: '', 
 sCondition: JSON.stringify([{ grupo: { usuario: [], condicion: [], admin: '' }, prefijos: []}]), 
 delete: false,
-modohorny: true,
+modohorny: false,
 stickers: false,
 autosticker: false,
 audios: false,
 antiver: false,
-antiPorn: true,
-antiLink: false,
+antiPorn: false,
+antiLink: true,
 antiLink2: false,
 antiTiktok: false,
 antiYoutube: false,
@@ -1046,9 +1046,9 @@ viewonce: false,
 modoadmin: false,
 antitoxic: false,
 game: true, 
-game2: true, 
+game2: false, 
 simi: false,
-antiTraba: true,
+antiTraba: false,
 autolevelup: false,
 expired: 0,
 }
@@ -1058,18 +1058,18 @@ if (settings) {
 if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
-if (!('restrict' in settings)) settings.restrict = false
+if (!('restrict' in settings)) settings.restrict = true
 if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
-if (!('antiSpam' in settings)) settings.antiSpam = true 
+if (!('antiSpam' in settings)) settings.antiSpam = false 
 if (!('modoia' in settings)) settings.modoia = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = false 
 } else global.db.data.settings[this.user.jid] = {
 self: false,
 autoread: false,
 autoread2: false,
-restrict: false,
+restrict: true,
 temporal: false,
 antiPrivate: false,
 antiCall: true,
@@ -1477,10 +1477,10 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, 'MichiBot ' + gt + ' ', '@ceogeripium.dzn'].getRandom(),
+"title": [wm, '✔️𝗔𝗹𝗰𝗮|𝗕𝗼𝘁 ' + gt + ' ', '@alcashop.ff'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: 'https://chat.whatsapp.com/LfJfgWkF25pIik8KW0QPU6' }}}, { quoted: fkontak2 })
+sourceUrl: 'https://chat.whatsapp.com/FFY1WsOvcBy6tBhI2ARTb0' }}}, { quoted: fkontak2 })
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
